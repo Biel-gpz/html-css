@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'iknowaghost';
+    src: url("fonts/iknowaghost.ttf") format('truetype'), url("fonts/iknowaghost.ttf") format('opentype');
+    font-weight: bolder;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'machine';
+    src: url("fonts/Type\ Machine.ttf") format("truetype"), url("fonts/Type\ Machine.ttf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'machine', Arial, Helvetica, sans-serif
+}
+
+h1{
+    font: normal bolder 3em  'iknowaghost', Times, serif;
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}

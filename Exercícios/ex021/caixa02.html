@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #778899;
+            margin: 0px;
+        }
+
+        header{
+            background-color: lightgray;
+            margin: 10px;
+            padding: 5px;
+        }
+        nav {
+            background-color: #2F3944;
+            padding: 2px;
+            margin: 5px;
+            box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.441);
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin: 10px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        nav > a:active {
+            color: #85C2FF;
+        }
+        main {
+            background-color: lightgray;
+            margin: 10px;
+            padding: 10px;
+        }
+        aside > p {
+            background-color: #507b9a;
+            font-style: italic;
+            text-decoration: underline;
+        }
+        article{
+            background-color: #5E666F;
+            margin: 1px;
+        }
+        article > p {
+            text-align: justify;
+        }
+        article > p.paragrafo1 {
+            text-indent: 10px;
+        }
+        footer > p {
+            background-color: black;
+            color: lightgray;
+            text-align: center;
+            font-weight: 400;
+            margin: 10px;
+            padding: 5px;
+        }
+        article#assunto1 {
+            background-color: #707984;
+            margin: 1px;
+           
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Site provisório</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <article id="assunto1">
+                <h2>Assunto de celebridade</h2>
+                <p class="paragrafo1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel libero quia neque a est. Necessitatibus corporis eum error nihil delectus, quia suscipit nesciunt blanditiis. Nulla est et dolores nisi enim?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima suscipit, quod nam repellendus a accusamus? A modi laborum unde repellendus quo, nesciunt est labore optio debitis quibusdam eligendi deleniti esse.</p>
+                <aside>
+                    <p>Artigo escrito por João Neto</p>
+                </aside>
+            </article>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias do dia</h2>
+                <p class="paragrafo1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat sequi, deserunt, earum ducimus perspiciatis maiores nostrum recusandae iure optio, et cum. Velit praesentium itaque nesciunt nostrum vel aliquam vitae quasi?</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam laborum eligendi hic iure animi voluptate fuga dicta, velit in! Culpa ab ipsam tempore voluptatem nemo maiores optio harum odio sed.</p>
+                <aside>
+                    <p>Artigo escrito por Eric Ramos</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Feito por Gabriel</p>
+    </footer>
+</body>
+</html>
