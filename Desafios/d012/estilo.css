@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    background-color: black;
+    height: 190px;
+    position: relative;
+}
+
+h1 {
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+header > p {
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main > p {
+    margin-top: 60px;
+    margin-left: 30px;
+    line-height: 45px;
+    font-size: 30px;
+}
+
+#imagem {
+    background-image: url('imagens/background001.jpg');
+    background-position: right center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+#imagem2 {
+    background-image: url('imagens/background002.jpg');
+    background-position: right center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+.paragrafoimagem {
+    background-color: rgba(0, 0, 0, 0.379);
+    width: 350px;
+    margin-top: 90px;
+    margin-left: 30px;
+    line-height: 45px;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    text-shadow: 1px 1px 1px black;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    margin-top: 8em;
+}
+
+footer > p {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
