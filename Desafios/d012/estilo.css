@@ -19,7 +19,6 @@ header {
     background-color: black;
     color: white;
     text-align: center;
-    line-height: 3em;
     padding-top: 50px;
     padding-bottom: 50px;
     font-family: var(--fonte-padrao);
@@ -49,12 +48,16 @@ section {
     padding-left: 10px;
 }
 
+section > p {
+    padding-bottom: 2em;
+}
+
 .normal {
     margin-top: 60px;
     margin-left: 20px;
     margin-bottom: 60px;
     line-height: 2em;
-    font-size: 4vw;
+    font-size: 3.5vw;
     font-family: var(--fonte3);
 }
 
@@ -63,6 +66,7 @@ section {
     background-size: cover;
     color: white;
     text-shadow: 1px 1px 1px black;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.479);
 }
 
 .imagem2 {
@@ -70,7 +74,7 @@ section {
     background-size: cover;
     color: white;
     text-shadow: 1px 1px 1px black;
-    box-shadow: inset 0px 5px 20px rgba(0, 0, 0, 0.479);
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.479);
 }
 
 .paragrafoimagem {
@@ -78,14 +82,14 @@ section {
     background-color: rgba(0, 0, 0, 0.354);
     margin-left: 20px;
     padding: 5px;
-    font-size: 4vw;
+    font-size: 3.5vw;
     line-height: 2em;
     font-family: var(--fonte3);
 }
 
 footer {
     background-color: black;
-    margin-top: 7em;
+    margin-top: 3em;
     color: white;
     text-align: center;
     padding: 10px;
