@@ -1,6 +1,0 @@
-This logo was generated using the following font:
-
-- Font Title: Encode Sans Condensed
-- Font Author: undefined
-- Font Source: https://fonts.gstatic.com/s/encodesanscondensed/v10/j8_16_LD37rqfuwxyIuaZhE6cRXOLtm2gfTGgaWNDw8VIw.ttf
-- Font License: undefined)
